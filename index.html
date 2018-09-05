@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HONG</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header><!--Estoy usando header aqui para definir el head de la pagina, y asi cuando se aplique stilo, pueda ponerlo todo como se encuentra en el ejemplo-->
+            <div><a href="#">HONG</a></div><!--Este seria el logo de hong pero a falta de css lo usare como un link-->
+            <div>
+                <nav><!--Nav para contener la lista de elementos de la barra de navegacion-->
+                    <ol>
+                        <li><a href="#">Design/Dev</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Inspiration</a></li>
+                        <li><a href="#">Social Commerce</a></li>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">Deals</a></li>
+                    </ol>
+                </nav>
+                <div id="search"><!--Este div es para la search bar-->
+                    <input type="text" placeholder="Example: CSS Tips">
+                </div>
+            </div>
+        </header>
+        <div>
+            <article><!--utilizo articulo, porque aqui comienza el contenido real de la pagina, por lo tanto la identifico como tal al utilizar este tag-->
+                <div class="container">
+                    <div class="main-content">
+                        <header><!--utilizo header aqui otra vez porque considero que esta parte de la pagina se podria manejar como un header facilitar su edicion-->
+                            <h1>HTML5 Website Showcase</h1>
+                            <div>
+                                <p>By <a href="#">Alvaris Falcon</a> in <a href="#">Web Design</a>. Updated on <time datetime="2018-04-09">April 9, 2018</time></p>
+                            </div>
+                        </header>
+                        <div><!--content-->
+                            <p>So you’ve heard all rumors about HTML5 would take over Adobe Flash. While most web community argues that it’s possible or not, you must be wandering what makes HTML5 so powerful that even giant company Apple wants to use it to replace Flash.</p>
+
+                            <p>That’s why this post exists, we’re not going to talk about what HTML5 can do, but show live demos of magical things that HTML5 can achieve with other language like JavaScript, so get ready to be inspired.</p>
+                        </div>
+                        <div><!--Comments Button-->
+                            <button>Show Comments</button>
+                        </div>
+                    </div>
+                    <aside><!--Utilizo aside aqui para marcar el contenido que se encuentra a un lado en el ejemplo-->
+                        <div><!--primer parte del aside, newsletter subscription-->
+                            <h2>Stay Updated</h2>
+                            <p>Get daily articles in your inbox for free.</p>
+                            <div>
+                                <form action="post">
+                                    <fieldset><input type="email" placeholder="Insert email address" required></fieldset>
+                                    <button type="submit">Subscribe!</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div><!--Segunda parte del aside, links a otros blogs-->
+                            <h2>You might also like</h2>
+                            <ol class="aside-links">
+                                <li><a href="#">Fresh Resources for Web Designers and Developers (August 2018)</a><br>Hongkiat Lim</li>
+                                <li><a href="#">"Coming Soon" Pages: Be Successful or Die Trying</a><br>Ann Davlin</li>
+                                <li><a href="#">Fresh Resources for Web Designers and Developers (July 2018)</a><br>Thoriq Firdaus</li>
+                            </ol>
+                        </div>
+                    </aside>
+                </div>
+            </article>
+        </div>
+        <footer><!--Utilizo footer para marcar el pie de pagina y asi separar esta seccion del contenido principal-->
+            <div class="footer">   
+                <p>(HKDC). All Rights Reserved. 2018</p>
+                <p>Reproduction of materials found on this site, in any form, without explicit permission is prohibited. <a href="#">Publishing policy</a> - <a href="#">Privacy Policy</a></p>
+
+                <ul><!--lista de logos de que se encuentran en el footer, aunque en este caso los hare como links a falta de css-->
+                    <li><a href="#">HONG</a></li>
+                    <li><a href="#">MAXCDN</a></li>
+                    <li><a href="#">exabytes</a></li>                    
+                </ul>
+            </div>
+        </footer>
+    </div><!--end of wrapper-->
+</body>
+</html>
